@@ -9,15 +9,20 @@
     "test": "vitest"
   },
   "dependencies": {
+    "@stylistic/eslint-plugin": "^5.10.0",
     "@vitejs/plugin-react": "^4.3.4",
+    "eslint": "^9.39.5",
+    "eslint-plugin-react": "^7.37.5",
+    "json-server": "^1.0.0-beta.3",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0",
-    "json-server": "^1.0.0-beta.3"
+    "react-dom": "^19.0.0"
   },
   "devDependencies": {
     "@testing-library/jest-dom": "^6.6.3",
     "@testing-library/react": "^16.2.0",
     "@testing-library/user-event": "^14.5.2",
+    "eslint-plugin-react-hooks": "^7.1.1",
+    "eslint-plugin-react-refresh": "^0.5.7",
     "jsdom": "^26.0.0",
     "node-fetch": "^3.3.2",
     "vite": "^6.1.0",

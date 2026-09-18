@@ -1,4 +1,4 @@
-import React from "react";
+import React from "react"
 
 function AddTransactionForm({postTransaction}) {
   function submitForm(e){
@@ -27,7 +27,7 @@ function AddTransactionForm({postTransaction}) {
         </button>
       </form>
     </div>
-  );
+  )
 }
 
-export default AddTransactionForm;
+export default AddTransactionForm

@@ -1,5 +1,5 @@
-import React from "react";
-import Transaction from "./Transaction";
+import React from "react"
+import Transaction from "./Transaction"
 
 function TransactionsList({transactions}) {
   const transactionComponent = transactions.map((transaction)=>{
@@ -28,7 +28,7 @@ function TransactionsList({transactions}) {
         {transactionComponent}
       </tbody>
     </table>
-  );
+  )
 }
 
-export default TransactionsList;
+export default TransactionsList

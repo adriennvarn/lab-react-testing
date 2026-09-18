@@ -1,8 +1,8 @@
-import React, {useState, useEffect} from "react";
-import TransactionsList from "./TransactionsList";
-import Search from "./Search";
-import AddTransactionForm from "./AddTransactionForm";
-import Sort from "./Sort";
+import React, {useState, useEffect} from "react"
+import TransactionsList from "./TransactionsList"
+import Search from "./Search"
+import AddTransactionForm from "./AddTransactionForm"
+import Sort from "./Sort"
 
 function AccountContainer() {
   const [transactions,setTransactions] = useState([])
@@ -16,7 +16,7 @@ function AccountContainer() {
   },[])
 
   function postTransaction(newTransaction){
-    fetch('http://localhost:6001/transactions',{
+    fetch("http://localhost:6001/transactions",{
       method: "POST",
       headers:{
         "Content-Type": "application/json"
@@ -42,7 +42,7 @@ function AccountContainer() {
       <Sort onSort={onSort}/>
       <TransactionsList transactions={transactions} />
     </div>
-  );
+  )
 }
 
-export default AccountContainer;
+export default AccountContainer

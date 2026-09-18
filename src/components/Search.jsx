@@ -1,4 +1,4 @@
-import React from "react";
+import React from "react"
 
 function Search({setSearch}) {
   return (
@@ -10,7 +10,7 @@ function Search({setSearch}) {
       />
       <i className="circular search link icon"></i>
     </div>
-  );
+  )
 }
 
-export default Search;
+export default Search

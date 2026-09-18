@@ -1,4 +1,4 @@
-import React from "react";
+import React from "react"
 
 function Transaction({transaction}) {
   return (
@@ -8,7 +8,7 @@ function Transaction({transaction}) {
       <td>{transaction.category}</td>
       <td>{transaction.amount}</td>
     </tr>
-  );
+  )
 }
 
-export default Transaction;
+export default Transaction
